@@ -5,22 +5,12 @@
 ```shell
 .
 ├── README.md
-├── charts
-│   └── myapp-helm
-│       ├── Chart.yaml
-│       ├── index.yaml
-│       ├── myapp-helm-0.1.0.tgz
-│       ├── templates
-│       │   ├── NOTES.txt
-│       │   ├── _helpers.tpl
-│       │   ├── deployment.yaml
-│       │   ├── hpa.yaml
-│       │   ├── ingress.yaml
-│       │   ├── service.yaml
-│       │   ├── serviceaccount.yaml
-│       │   └── tests
-│       │       └── test-connection.yaml
-│       └── values.yaml
-├── index.yaml
-└── robots.txt
+└── httpbin
+    ├── Chart.yaml
+    ├── charts
+    ├── templates
+    │   ├── _helpers.tpl
+    │   ├── deployment.yaml
+    │   └── service.yaml
+    └── values.yaml
 ```
