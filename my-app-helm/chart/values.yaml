@@ -1,0 +1,11 @@
+replicaCount: 2
+
+image:
+  repository: kong/httpbin
+  tag: 0.1.0
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
