@@ -4,19 +4,23 @@
 
 ```shell
 .
-├── Chart.yaml
+├── README.md
 ├── charts
+│   └── myapp-helm
+│       ├── Chart.yaml
+│       ├── index.yaml
+│       ├── myapp-helm-0.1.0.tgz
+│       ├── templates
+│       │   ├── NOTES.txt
+│       │   ├── _helpers.tpl
+│       │   ├── deployment.yaml
+│       │   ├── hpa.yaml
+│       │   ├── ingress.yaml
+│       │   ├── service.yaml
+│       │   ├── serviceaccount.yaml
+│       │   └── tests
+│       │       └── test-connection.yaml
+│       └── values.yaml
 ├── index.yaml
-├── myapp-helm-0.1.0.tgz
-├── templates
-│   ├── NOTES.txt
-│   ├── _helpers.tpl
-│   ├── deployment.yaml
-│   ├── hpa.yaml
-│   ├── ingress.yaml
-│   ├── service.yaml
-│   ├── serviceaccount.yaml
-│   └── tests
-│       └── test-connection.yaml
-└── values.yaml
+└── robots.txt
 ```
